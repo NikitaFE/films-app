@@ -49,6 +49,7 @@ FilmCard.propTypes = {
     duration: PropTypes.number.isRequired,
     price: PropTypes.number.isRequired,
     featured: PropTypes.bool.isRequired,
+    description: PropTypes.string.isRequired,
   }),
 }
 
